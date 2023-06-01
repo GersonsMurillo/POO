@@ -1,0 +1,76 @@
+TAREA 1.2
+*********
+
+Condiciones:
+* Todos los ejercicios debe desarrollarlos usando el lenguaje JAVA utilizando la IDE llamada Netbeans
+* Comprimir todos los ejercicios de codigo fuente en un solo archivo, si son proyectos de Netbeans entonces clasificarlos en carpetas dentro del archivo comprimido.
+* El nombre del archivo debe ser:  SuNumeroDeCuenta - SuNombre
+* Subir el archivo en el campus virtual en el item llamado tarea 1.2
+
+EJERCICIO 1
+Crear una clase vehiculo que represente a un automovil, sobre el mismo se manejará la información siguiente:
++ Marca			String
++ Modelo		String
++ Color			String
++ Placa			String
++ Año			int
+- Estado		String
+
+* crear dos constructores para la clase (uno con 5 parametors y otro sin parametros)
+* la propiedad Estado debe inicializar por medio del constructor con la cadena de texto "Detenido"
+* la propiedad Estado no podra sea alterada desde fuera de la clase
+* crear dos metodos uno llamado Acelerar y otro Frenar
+* el metodo acelerar cambiara el estado del vehiculo a "En Marcha" y el metodo frenar cambiará el estado del vehiculo a "Detenido"
+* crear una funcion llamada getEstado que permitira consultar el estado del vehiculo
+
+EJERCICIO 2
+Crear una clase que represente a un producto de una tienda.
+sobre el producto se desea manejar la siguiente informacion:
++ Codigo		String
++ Nombre		String
++ Costo de compra	float
++ Precio de venta	float
+- Existencias 		int	(o sea la cantidad de producto que hay en la tienda)
+
+* crear dos constructores para la clase (uno con 4 parametors y otro sin parametros)
+* las existencias siempre deben iniciar en CERO
+* las existencias no deben poder ser alteradas desde fuera de la clase, estas solo podrán aumentar o disminuir mediante
+  funciones set que Usted debe programar.
+* debe existir tambien la posibilidad de poder consultar cuantas existencias del producto por medio de una funcion get.
+
+EJERCICIO 3
+Crear una clase llamada Rectangulo, esta debe manejar la informacion siguiente:
++ coordenada X del punto inicial	float
++ coordenada Y del punto inicial	float
++ coordenada X del punto final		float
++ coordenada Y del punto final		float
+tomar como referencia el diagrama siguiente:
+
+* debe nombrar los atributos como Usted guste
+* la clase debe tener dos constructores:
+	a) un constructor sin parametros que inicialize todas las coordenadas en CERO
+	b) otro constructor con parametros que permita llenar las 4 coordenadas
+* la clase debe contar con las siguientes funciones:
+	a) una funcion que devuelva el area del rectangulo
+	b) una funcion que devuelva el perimetro del rectangulo
+	c) una funcion que devuelva el valor de la diagonal del rectangulo
+
+EJERCICIO 4
+Crear una clase para describir a un tanque de agua del cual debe manejar la informacion siguiente:
++ capacidad maxima en litros					float
++ diametro del tanque						float
++ fabricante							String
++ material con que ha sido fabricado				String
+- cantidad de agua que tiene almacenada actualmente en litros	float
+
+* crear dos constructores para la clase (uno con 4 parametors y otro sin parametros)
+* la cantidad de agua siempre deben iniciar en CERO
+* el diametro del tanque siempre debe iniciar en 1000
+* crear las funciones set para depositar agua y para quitar agua del tanque,
+	* no debe permitir depositar o quitar agua en valores negativos
+	* debe tener en cuenta que en el tanque de agua no debe permitirse depositar mas agua de la que permite la capacidad maxima del mismo
+	* no se debe permitir quitar mas agua de la que tiene el tanque
+	* no se debe permitir que la cantidad de agua en el tanque sea un valor negativo
+* manejar todas las operaciones realizadas en el tanque en litros para no confundirse
+* crear una funcion que nos imprima cuanta agua tiene almacenada el tanque en litros
+* crear una funcion que nos imprima cuanta agua tiene almacenada el tanque en porcentaje con respecto a la capacidad maxima
